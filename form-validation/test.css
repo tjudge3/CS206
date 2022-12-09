@@ -1,0 +1,31 @@
+/*Just the css for the assignment
+Only thing that changed was adding a span for the errors on validation*/
+.FlexContainerRow {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 95%;
+    overflow: auto;
+    flex-direction: row;
+}
+
+.FlexContainerRow div {
+    width: 20%;
+    margin: 5px;
+}
+
+.FlexContainerRow div input[type=radio]{
+display: inline;
+}
+
+.FlexContainerRow div input[type=text] {
+width:100%;
+}
+
+span.error{color:#800000}
+
+.FlexContainerRow div textarea {height: auto;}
+
+.answer{font-weight: bold;}
